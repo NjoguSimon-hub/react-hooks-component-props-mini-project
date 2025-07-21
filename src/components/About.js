@@ -4,7 +4,7 @@ function About({ image = "https://via.placeholder.com/215", about }) {
   return (
     <aside>
       <img src={image} alt="blog logo" />
-      {about ? <p>{about}</p> : null}
+      <p>{about}</p>
     </aside>
   );
 }
